@@ -15,7 +15,7 @@ setup(
     name="wandb-logger",
     version="0.1.0",
     author="SabaPivot",
-    author_email="your.email@example.com",  # Replace with your email
+    author_email="careforme.dropout@gmail.com",  # Replace with your email
     description="A command-line tool for managing Weights & Biases (W&B) training logs",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -25,6 +25,7 @@ setup(
     },
     packages=find_packages(),
     include_package_data=True,
+    license="MIT",
     install_requires=[
         "click>=8.0.0",
         "wandb>=0.12.0",
