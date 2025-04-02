@@ -13,7 +13,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="wandb-logger",
-    version="0.1.0",
+    version="0.1.1",
     author="SabaPivot",
     author_email="careforme.dropout@gmail.com",  # Replace with your email
     description="A command-line tool for managing Weights & Biases (W&B) training logs",
