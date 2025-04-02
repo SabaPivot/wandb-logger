@@ -7,7 +7,7 @@ name = "wandb-logger"
 version = "0.1.0"
 description = "A command-line tool for managing Weights & Biases (W&B) training logs"
 authors = [
-    {name = "SabaPivot", email = "your.email@example.com"},
+    {name = "SabaPivot", email = "careforme.dropout@gmail.com"},
 ]
 dependencies = [
     "click>=8.0.0",
