@@ -4,11 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/SabaPivot/wandb-logger?style=social)
 ![PyPI version](https://img.shields.io/pypi/v/wandb-logger)
-![License](https://img.shields.io/github/license/SabaPivot/wandb-logger-app)
-
-<p align="center">
-  <img src="https://your-image-url-here.png" alt="WandB Logger App Demo" width="600">
-</p>
+![License](https://img.shields.io/github/license/SabaPivot/wandb-logger)
 
 WandB Logger App is a sleek command-line tool that transforms how you work with Weights & Biases. Create beautiful, shareable reports of your ML experiments in seconds.
 
@@ -42,13 +38,27 @@ This dual approach lets you quickly navigate through your work at both the proje
 
 ```bash
 # Install from PyPI
-pip install wandb-logger-app
+pip install wandb-logger
 
 # Or install from source
-git clone https://github.com/yourusername/wandb-logger-app.git
-cd wandb-logger-app
+git clone https://github.com/SabaPivot/wandb-logger.git
+cd wandb-logger
 pip install -e .
 ```
+
+## 🔑 WandB Account and Authentication
+
+You'll need a Weights & Biases account to use this tool. If you don't already have one:
+
+1. Sign up at [wandb.ai](https://wandb.ai/site)
+2. Get your API key from [wandb.ai/authorize](https://wandb.ai/authorize)
+3. Login using the tool:
+
+```bash
+wandb-logger login
+```
+
+This will prompt you to enter your API key and securely store it for future sessions.
 
 ## 🏁 Quick Start
 
@@ -65,7 +75,7 @@ wandb-logger recent
 wandb-logger recent-runs
 
 # 3. Once you have a run URL, fetch detailed metrics
-wandb-logger fetch https://wandb.ai/username/project/runs/run_id --select
+wandb-logger fetch https://wandb.ai/username/project/runs/run_id
 ```
 
 ## 📖 Commands
