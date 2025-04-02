@@ -4,8 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/SabaPivot/wandb-logger?style=social)
 ![PyPI version](https://img.shields.io/pypi/v/wandb-logger)
-![Python versions](https://img.shields.io/pypi/pyversions/wandb-logger-app)
-![License](https://img.shields.io/github/license/yourusername/wandb-logger-app)
+![License](https://img.shields.io/github/license/SabaPivot/wandb-logger-app)
 
 <p align="center">
   <img src="https://your-image-url-here.png" alt="WandB Logger App Demo" width="600">
