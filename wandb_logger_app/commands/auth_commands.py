@@ -15,7 +15,7 @@ def login_command(wandb_api, api_key=None):
     
     if not api_key:
         display_info("Please provide your WandB API key.")
-        display_info("You can find your API key at: https://wandb.ai/settings")
+        display_info("You can find your API key at: https://wandb.ai/authorize")
         api_key = ask_input("WandB API Key (press Enter to open browser login)")
         
         if not api_key:
@@ -49,4 +49,4 @@ def status_command(wandb_api):
             display_success("Logged in to WandB")
     else:
         display_info("Not logged in to WandB")
-        display_info("Run 'login' to log in to your WandB account") 
+        display_info("Run 'wandb-logger login' to log in to your WandB account") 
